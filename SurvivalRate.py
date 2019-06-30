@@ -335,7 +335,7 @@ plt.title('Number of neighbors(value of K) VS Accuracy')
 plt.xlabel('Value of K for KNN')
 plt.ylabel('Cross-validated accuracy')
 
-Value of k seems to be at about 32
+# Value of k seems to be at about 32
 #%%
 # Now use this k value in the classifier
 classifier_remod = KNeighborsClassifier(n_neighbors=32,weights='distance',metric='minkowski',p=2)
